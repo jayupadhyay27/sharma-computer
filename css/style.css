@@ -562,7 +562,8 @@ color: white;
 
    nav{
     flex-direction:column;
-    padding:15px;
+    padding:15px 20px;
+    align-items: center;
 }
 
 .nav-links{
@@ -575,10 +576,15 @@ color: white;
 .nav-links a{
     margin:0;
     font-size:13px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
 }
 
     .brand{
         font-size:20px;
+        margin-bottom: 15px;
     }
 
 
